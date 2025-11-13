@@ -15,7 +15,7 @@ Each categorization includes 2,000 samples, where 1,000 samples are for anonymiz
 | Original           | The original user prompt for LLM.                                           |
 | Need Anonymization | Indicates if the prompt contains PII requiring anonymization (YES/NO).      |
 | Detect PII Values  | The detected PII values of the prompt with type (age, gender, etc.) in JSON format. |
-| Improved Prompt     | The suggested improved prompt excluding sensitive information while preserving meaning. |
+| Improved Prompt     | The suggested improved prompt excludes sensitive information while preserving meaning. |
 
 - The dataset presents 5,000 prompts that need anonymization and 5,000 prompts that do not.
 - The detected PII values show types and exact values using JSON object notation.
@@ -23,12 +23,29 @@ Each categorization includes 2,000 samples, where 1,000 samples are for anonymiz
 
 ## Usage
 
-This dataset can be used for developing and evaluating privacy-preserving anonymization techniques on user prompts for LLMs. The improved prompts are designed to exclude sensitive information without damaging the original prompt meaning.
+This dataset can be used for developing and evaluating privacy-preserving anonymization techniques on user prompts for LLMs. The improved prompts are designed to exclude sensitive information without damaging the original prompt's meaning.
 
 ## License
 
-[Specify your license here]
+This dataset is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) License.  
+You may copy and redistribute the dataset in any medium or format, under the conditions that you give attribution and do NOT distribute modified versions.  
+See the LICENSE file for full details.
 
 ## Citation
 
-Please cite the accompanying research paper when using this dataset.
+Please cite the accompanying research paper when using this dataset:
+
+**Sahaswari Senanayaka, Riyaji Samasundara, Malindu Dissanayaka, Charith Dissanayaka, and Tharindu Gamage**  
+"Comprehensive Dataset for PII Detection and Privacy-Aware Prompt Enhancement in Large Language Models,"  
+Manuscript submitted for publication, 2025.
+
+### BibTeX
+
+```bibtex
+@article{senanayaka2025privacy,
+  title={Privacy Awareness Prompt Enhancement Dataset},
+  author={Senanayaka, Sahaswari and Samasundara, Riyaji and Dissanayaka, Malindu and Dissanayaka, Charith and Gamage, Tharindu},
+  year={2025},
+  note={Manuscript submitted for publication}
+}
+
