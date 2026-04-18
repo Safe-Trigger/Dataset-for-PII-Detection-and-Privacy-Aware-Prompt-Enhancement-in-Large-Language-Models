@@ -6,7 +6,7 @@ The privacy awareness prompt enhancement dataset is designed to identify, classi
 
 There are two dataset files for training and testing purposes. Formally, the dataset presents both CSV and Excel file formats. Sample raw data in both table and CSV format is shown in Table I and Figure 1 in the accompanying paper.
 
-Each categorization includes 2,000 samples, where 1,000 samples are for anonymization, while 1,000 serve as clean reference prompts. This structure ensures a balanced dataset suitable for both binary classification (PII vs non-PII) and multi-class anonymization analysis.
+Each categorization includes 2,600 samples, where 1,300 samples are for anonymization, while 1,300 serve as clean reference prompts in the  both traning and testing dataset. This structure ensures a balanced dataset suitable for both binary classification (PII vs non-PII) and multi-class anonymization analysis.
 
 ## Columns Description
 
@@ -17,7 +17,7 @@ Each categorization includes 2,000 samples, where 1,000 samples are for anonymiz
 | Detect PII Values  | The detected PII values of the prompt with type (age, gender, etc.) in JSON format. |
 | Improved Prompt     | The suggested improved prompt excludes sensitive information while preserving meaning. |
 
-- The dataset presents 5,000 prompts that need anonymization and 5,000 prompts that do not.
+- The dataset presents 6,500 prompts that need anonymization and 6,500 prompts that do not.
 - The detected PII values show types and exact values using JSON object notation.
 - Anonymization techniques employed include generalization, pseudonymization, and masking, either individually or in combination.
 
