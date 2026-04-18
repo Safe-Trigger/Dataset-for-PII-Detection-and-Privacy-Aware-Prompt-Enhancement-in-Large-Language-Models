@@ -10,12 +10,13 @@ Each categorization includes 2,600 samples, where 1,300 samples are for anonymiz
 
 ## Columns Description
 
-| Column Name        | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| Original           | The original user prompt for LLM.                                           |
-| Need Anonymization | Indicates if the prompt contains PII requiring anonymization (YES/NO).      |
-| Detect PII Values  | The detected PII values of the prompt with type (age, gender, etc.) in JSON format. |
-| Improved Prompt     | The suggested improved prompt excludes sensitive information while preserving meaning. |
+| Column Name            | Description                                                                 |
+|--------------------    |-----------------------------------------------------------------------------|
+| Original               | The original user prompt for LLM.                                           |
+| Need Anonymization     | Indicates if the prompt contains PII requiring anonymization (YES/NO).      |
+| Detect PII Values      | The detected PII values of the prompt with type (age, gender, etc.) in JSON format. |
+| Anonymization Technique| Used anonymization techniques for the make the improved propmt              |
+| Improved Prompt        | The suggested improved prompt excludes sensitive information while preserving meaning. |
 
 - The dataset presents 6,500 prompts that need anonymization and 6,500 prompts that do not.
 - The detected PII values show types and exact values using JSON object notation.
