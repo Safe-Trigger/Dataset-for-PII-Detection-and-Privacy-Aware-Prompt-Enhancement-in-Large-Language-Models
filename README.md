@@ -31,21 +31,5 @@ This dataset is licensed under the Creative Commons Attribution-NoDerivatives 4.
 You may copy and redistribute the dataset in any medium or format, under the conditions that you give attribution and do NOT distribute modified versions.  
 See the LICENSE file for full details.
 
-## Citation
 
-Please cite the accompanying research paper when using this dataset:
-
-**Sahaswari Senanayaka, Riyaji Samasundara, Malindu Dissanayaka, Charith Dissanayaka, and Tharindu Gamage**  
-"Comprehensive Dataset for PII Detection and Privacy-Aware Prompt Enhancement in Large Language Models,"  
-Manuscript submitted for publication, 2025.
-
-### BibTeX
-
-```bibtex
-@article{senanayaka2025privacy,
-  title={Privacy Awareness Prompt Enhancement Dataset},
-  author={Senanayaka, Sahaswari and Samasundara, Riyaji and Dissanayaka, Malindu and Dissanayaka, Charith and Gamage, Tharindu},
-  year={2025},
-  note={Manuscript submitted for publication}
-}
 
